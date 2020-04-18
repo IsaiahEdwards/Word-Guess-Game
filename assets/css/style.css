@@ -1,0 +1,16 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkgray;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.font{
+    font-size: 22px;
+}
+#game{
+    text-align: center;
+}

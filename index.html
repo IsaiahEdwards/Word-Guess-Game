@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Hangman</title>
+    <!--BOOTSTRAP LINK-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="offset-3 col-8">
+            <header> 
+                <h1 id="header-text">LETS PLAY HANGMAN</h1>
+            </header>
+        </div>
+    </div>
+    
+    <!--stats-->
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-2">
+                <div class="font">Wins:<span id=wins>0</span></div>
+            </div>
+
+            <div class="offset-7 col-3">
+                <div class="font">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+            </div>
+        </div>
+    </div>
+    
+    <!--the Game-->
+    <div id="game">
+      <img id='hangmanPic' src="assets/images/hangman1.png" alt="">
+      <p id="wordSpotlight">The word to be guessed goes here</p>
+      <div id="keyboard"></div>
+      <button class="btn btn-info" onClick="reset()">Reset</button>
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
