@@ -1,2 +1,2 @@
 # Word-Guess-Game
-hangman
+working version of hangman
